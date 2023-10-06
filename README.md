@@ -7,3 +7,4 @@
 # EXECUTION
 - Create the dataset `cellphones` and the table `ticket` in MySQL server
 - Answers for task 1 to task 7: [answers](src)
+- Ouptuts for task 1 to task 7: [outputs](data/processed_data)
