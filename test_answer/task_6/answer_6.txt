@@ -1,0 +1,13 @@
+6. Để tối ưu việc truy xuất data của user, đảm bảo tốc độ truy xuất nhanh nhất với chi phí thấp nhất có thể, bạn sẽ làm gì thêm với model của mình ở câu 5 sau khi đã load lên data warehouse?
+Hãy đề xuất những cách tối ưu bạn có thể nghĩ tới.
+
+Những cách để cải thiện model để tối ưu hóa việc truy xuất data:
+- Database indexing:
++ Tạo B-tree index cho những cột thường xuyên dùng trong WHERE clause và JOIN clause của câu query (case_created_at, case_category_1,...)
++ Việc tạo index sẽ khiến cho việc định vị và truy xuất data nhanh hơn, tuy nhiên cũng nên lưu ý vì nếu tạo quá nhiều index sẽ làm chậm database
+
+- Normalization:
++ Tách bảng ticket ra thành các bảng fact và dim, các bảng này sẽ kết nối với nhau bằng foreign key và primary key
++ Việc này loại bỏ các giá trị bị lỗi, trùng lập, không nhất quán,...giúp data trở nên tinh gọn hơn
+
+- 
