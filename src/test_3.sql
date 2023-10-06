@@ -6,4 +6,5 @@ SELECT
 	, COALESCE(SUM(CASE WHEN case_category_1 = "Facility" THEN 1 END), 0) AS "Facility"
 	, COALESCE(SUM(CASE WHEN case_category_1 = "Service" THEN 1 END), 0) AS "Service"
 FROM cellphones.ticket
-GROUP BY Ngày;
+GROUP BY Ngày
+ORDER BY Ngày;
