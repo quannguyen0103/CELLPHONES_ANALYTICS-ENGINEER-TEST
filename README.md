@@ -1,10 +1,12 @@
-# I. SET UP
+# TECHNOLOGIES
 - Database: `MySQL`
-- Language: `SQL`
+- Ngôn ngữ: `SQL`
 - Visualization: `Power BI`
-- Dataset: [ticket.csv](data/raw_data/ticket.csv)
 
-# EXECUTION
-- Create the dataset `cellphones` and the table `ticket` in MySQL server
-- Answers for task 1 to task 7: [answers](src)
-- Ouptuts for task 1 to task 7: [outputs](data/processed_data)
+# I. SET UP
+- Dataset: [ticket.csv](data/raw_data/ticket.csv)
+- Tạo dataset `cellphones` và bảng `ticket` trong MySQL server. Insert data từ [ticket.csv](data/raw_data/ticket.csv) vào bảng `ticket`.
+
+# II. EXECUTION
+- Đáp án cho task 1-7: [answers](src)
+- Output cho task 1-7: [outputs](data/processed_data)
