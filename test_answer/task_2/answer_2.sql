@@ -2,7 +2,7 @@
 WITH sub_ticket AS (
 SELECT
 	date(case_created_at) AS Ngày
-    , case_rating
+	, case_rating
 FROM cellphones.ticket
 )
 SELECT
