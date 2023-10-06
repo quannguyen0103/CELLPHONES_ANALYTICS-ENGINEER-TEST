@@ -6,10 +6,7 @@ SELECT
 FROM cellphones.ticket
 )
 SELECT
-	Ngày
-	, COUNT(Ngày) AS total_ticket
+	COUNT(Ngày) AS total_ticket
 FROM sub_ticket
 WHERE Ngày >= DATE_SUB(CURDATE(), INTERVAL 6 DAY)
-AND case_rating = 5
-GROUP BY Ngày
-ORDER BY Ngày;
+AND case_rating = 5;
