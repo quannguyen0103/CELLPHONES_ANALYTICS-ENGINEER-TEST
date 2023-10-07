@@ -11,6 +11,7 @@
 ## Task 1: Viết SQL để lấy số ticket của 10 ngày gần nhất, lưu ý rằng có thể có những ngày không có ticket nào
 **Script:**
 ![Alt text](test_answer/task_1/answer_1.PNG)
+
 **Output:**
 ![Alt text](test_answer/task_1/output_1.PNG)
 
