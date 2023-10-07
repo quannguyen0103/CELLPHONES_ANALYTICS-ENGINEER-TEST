@@ -20,20 +20,20 @@
 ## Task 2: Viết SQL để đếm số khách hàng có phản hồi 5 sao trong vòng 7 ngày vừa qua, tính từ ngày hôm nay
 **Script:**
 
-![Alt text](test_answer/task_1/answer_2.PNG)
+![Alt text](test_answer/task_2/answer_2.PNG)
 
 **Output:**
 
-![Alt text](test_answer/task_1/output_2.PNG)
+![Alt text](test_answer/task_2/output_2.PNG)
 
 ## Task 3: Viết SQL để output ra được kết quả như bên dưới , mỗi cell là số lượng ticket của từng category
 **Script:**
 
-![Alt text](test_answer/task_1/answer_3.PNG)
+![Alt text](test_answer/task_3/answer_3.PNG)
 
 **Output:**
 
-![Alt text](test_answer/task_1/output_3.PNG)
+![Alt text](test_answer/task_3/output_3.PNG)
 
 - Đáp án và kết quả của task 4: [task_4](test_answer/task_4)
 - Đáp án và kết quả của task 5: [task_5](test_answer/task_5)
@@ -42,8 +42,8 @@
 ## Task 7: Viết SQL biểu diễn tổng số user có feedback trong 7 ngày và 28 ngày, biểu diễn theo từng ngày. Trong đó, từng ngày sẽ cần quét ngược về lịch sử 7 / 28 ngày
 **Script:**
 
-![Alt text](test_answer/task_1/answer_7.PNG)
+![Alt text](test_answer/task_7/answer_7.PNG)
 
 **Output:**
 
-![Alt text](test_answer/task_1/output_7.PNG)
+![Alt text](test_answer/task_7/output_7.PNG)
